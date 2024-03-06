@@ -16,7 +16,7 @@ reader = easyocr.Reader(['en'])
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="laptop",
+    password="abcd",
     database= "bizcard_data1"
                 )
 mycursor = mydb.cursor()
